@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/yuzuki999/websocket"
 
 	"github.com/xtls/xray-core/common"
 	"github.com/xtls/xray-core/common/net"

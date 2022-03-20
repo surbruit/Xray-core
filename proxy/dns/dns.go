@@ -8,19 +8,19 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	dns_proto "github.com/xtls/xray-core/common/protocol/dns"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/yuzuki999/xray-core/common"
+	"github.com/yuzuki999/xray-core/common/buf"
+	"github.com/yuzuki999/xray-core/common/net"
+	dns_proto "github.com/yuzuki999/xray-core/common/protocol/dns"
+	"github.com/yuzuki999/xray-core/common/session"
+	"github.com/yuzuki999/xray-core/common/signal"
+	"github.com/yuzuki999/xray-core/common/task"
+	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki999/xray-core/features/dns"
+	"github.com/yuzuki999/xray-core/features/policy"
+	"github.com/yuzuki999/xray-core/transport"
+	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki999/xray-core/transport/internet/stat"
 )
 
 func init() {

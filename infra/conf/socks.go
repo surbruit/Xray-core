@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/socks"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/common/serial"
+	"github.com/yuzuki999/xray-core/proxy/socks"
 )
 
 type SocksAccount struct {

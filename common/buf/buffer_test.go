@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/buf"
+	"github.com/yuzuki999/xray-core/common"
+	. "github.com/yuzuki999/xray-core/common/buf"
 )
 
 func TestBufferClear(t *testing.T) {

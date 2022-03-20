@@ -6,19 +6,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/transport/global"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/grpc"
-	"github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/headers/noop"
-	"github.com/xtls/xray-core/transport/internet/headers/tls"
-	"github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/quic"
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/websocket"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/common/serial"
+	. "github.com/yuzuki999/xray-core/infra/conf"
+	"github.com/yuzuki999/xray-core/transport/global"
+	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki999/xray-core/transport/internet/grpc"
+	"github.com/yuzuki999/xray-core/transport/internet/headers/http"
+	"github.com/yuzuki999/xray-core/transport/internet/headers/noop"
+	"github.com/yuzuki999/xray-core/transport/internet/headers/tls"
+	"github.com/yuzuki999/xray-core/transport/internet/kcp"
+	"github.com/yuzuki999/xray-core/transport/internet/quic"
+	"github.com/yuzuki999/xray-core/transport/internet/tcp"
+	"github.com/yuzuki999/xray-core/transport/internet/websocket"
 )
 
 func TestSocketConfig(t *testing.T) {

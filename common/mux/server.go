@@ -4,17 +4,17 @@ import (
 	"context"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/yuzuki999/xray-core/common"
+	"github.com/yuzuki999/xray-core/common/buf"
+	"github.com/yuzuki999/xray-core/common/errors"
+	"github.com/yuzuki999/xray-core/common/log"
+	"github.com/yuzuki999/xray-core/common/net"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/common/session"
+	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki999/xray-core/features/routing"
+	"github.com/yuzuki999/xray-core/transport"
+	"github.com/yuzuki999/xray-core/transport/pipe"
 )
 
 type Server struct {

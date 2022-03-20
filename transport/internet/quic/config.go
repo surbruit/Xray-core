@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/yuzuki999/xray-core/common"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/transport/internet"
 )
 
 func getAuth(config *Config) (cipher.AEAD, error) {

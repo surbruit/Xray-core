@@ -10,19 +10,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/domainsocket"
-	httpheader "github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/http"
-	"github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/quic"
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/websocket"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/yuzuki999/xray-core/common/platform/filesystem"
+	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki999/xray-core/common/serial"
+	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki999/xray-core/transport/internet/domainsocket"
+	httpheader "github.com/yuzuki999/xray-core/transport/internet/headers/http"
+	"github.com/yuzuki999/xray-core/transport/internet/http"
+	"github.com/yuzuki999/xray-core/transport/internet/kcp"
+	"github.com/yuzuki999/xray-core/transport/internet/quic"
+	"github.com/yuzuki999/xray-core/transport/internet/tcp"
+	"github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki999/xray-core/transport/internet/websocket"
+	"github.com/yuzuki999/xray-core/transport/internet/xtls"
 )
 
 var (
